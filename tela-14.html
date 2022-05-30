@@ -46,168 +46,196 @@
         <img id="botao_1" style="margin-top: 151px;margin-right: 127px;width: 231px;"
             src="recursos/imgs/img-slide-11-estado-1.svg">
     </div>
-    <div class="jan" id="janela_1" style=" display: none;">
-        <div  style="width: 870px;height: 485px;background: #3F6B71 0% 0% no-repeat padding-box; border-radius: 12px; display: flex; position: absolute;top: 6px;left: 10px;align-items: center;justify-content: space-evenly;">
-            <div class="linha">
-                <div>ITENS</div>
-                <div>INSUMO</div>
-                <div>ATIVIDADE</div>
-                <div>PRODUTO</div>
-                <div>RESULTADO</div>
-                <div>IMPACTO</div>
-            </div>
-        </div>
-        <!-- <div>
+    <div class="jan" id="janela_1">
+        <div>
             <div
                 style="width: 870px;height: 485px;background: #3F6B71 0% 0% no-repeat padding-box; border-radius: 12px; display: flex; position: absolute;top: 6px;left: 10px;align-items: center;justify-content: space-evenly;">
 
                 <table>
                     <tr>
                         <th>ITENS</th>
-                        <th>INSUMO</th>
-                        <th>ATIVIDADE</th>
-                        <th>PRODUTO</th>
-                        <th>RESULTADO</th>
-                        <th>IMPACTO</th>
+                        <th></th>
+                        <div
+                            style="display: flex;position: absolute;top: 103px;left: 500px;width: 364px;justify-content: space-around;align-items: center;">
+
+                            <div
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                INSUMO
+                            </div>
+                            <div
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                ATIVIDADE
+                            </div>
+                            <div
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                PRODUTO
+                            </div>
+                            <div
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                RESULTADO
+                            </div>
+                            <div
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                IMPACTO
+                            </div>
+
+                        </div>
                     </tr>
                     <tr>
                         <td>Equipe de profissionais de saúde</td>
-                        <div id="linha_1">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                        <div id="linha_1"
+                            style="display: flex;position: absolute;top: 103px;left: 500px;width: 364px;justify-content: space-around;align-items: center;">
+                            <div id="col_1"
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                X
+                            </div>
+                            <div id="col_2"
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                X
+                            </div>
+                            <div id="col_3"
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                X
+                            </div>
+                            <div id="col_4"
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                X
+                            </div>
+                            <div id="col_5"
+                                style="text-align: center;color: red;font-weight: bold;width: 100px;height: 20px;border: 1px solid black;display: flex;justify-content: center;align-items: center;">
+                                X
+                            </div>
+
                         </div>
                     </tr>
                     <tr>
                         <td>Redução da taxa de incidência de TB</td>
                         <div id="linha_2">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_6" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_7" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_8" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_9" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_10" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Gestantes aconselhadas e testadas para sífilis</td>
                         <div id="linha_3">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_11" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_12" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_13" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_14" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_15" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Preservativos distribuídos</td>
                         <div id="linha_4">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_16" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_17" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_18" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_19" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_20" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Realização de capacitação</td>
                         <div id="linha_5">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_21" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_22" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_23" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_24" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_25" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Kits de teste de dengue disponíveis nas UBS</td>
                         <div id="linha_6">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_26" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_27" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_28" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_29" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_30" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Equipe de profissionais de saúde</td>
                         <div id="linha_7">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_31" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_32" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_33" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_34" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_35" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Estrutura física para capacitação</td>
                         <div id="linha_8">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_36" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_37" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_38" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_39" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_40" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Melhoria da estrutura das unidades de saúde</td>
                         <div id="linha_9">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_41" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_42" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_43" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_44" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_45" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Profissionais de saúde capacitados</td>
                         <div id="linha_10">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_46" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_47" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_48" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_49" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_50" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Oficinas realizadas</td>
                         <div id="linha_11">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_51" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_52" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_53" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_54" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_55" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Recursos existentes para compra de material permanente</td>
                         <div id="linha_12">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_56" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_57" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_58" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_59" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_60" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Mudança na representação social da hanseníase</td>
                         <div id="linha_13">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_61" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_62" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_63" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_64" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_65" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                     <tr>
                         <td>Aumento na proporção de gestantes tratadas com antirretrovirais</td>
-                        <div id="linha_4">
-                            <td id="_1" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_2" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_3" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_4" style="text-align: center;color: red;font-weight: bold;">X</td>
-                            <td id="_5" style="text-align: center;color: red;font-weight: bold;">X</td>
+                        <div id="linha_14">
+                            <td id="col_66" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_67" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_68" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_69" style="text-align: center;color: red;font-weight: bold;">X</td>
+                            <td id="col_70" style="text-align: center;color: red;font-weight: bold;">X</td>
                         </div>
                     </tr>
                 </table>
@@ -222,7 +250,7 @@
                     problemas
                     apresentados.</p>
             </div>
-        </div> -->
+        </div>
     </div>
 </div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #0D536A;">
@@ -263,10 +291,24 @@
 <script>
 
     $(() => {
-        console.log($(document).find('[id^=linha_]'));
+
         $(document).find('[id^=linha_]').map((index, linha) => {
-            console.log($(linha).find('td'));
+
+            console.log($(linha).find('[id^=col_]'))
+
+
         })
+
+
+
+        // $(document).find('[id^=col_]').map((index, coluna) => {
+        //     console.log($(coluna).parent().parent().parent());
+        //     $(coluna).css('cursor', 'pointer')
+        //     $(coluna).text(' ');
+        //     $(coluna).on('click', () => {
+        //         $(coluna).text('X');
+        //     })
+        // })
     })
 
 </script>

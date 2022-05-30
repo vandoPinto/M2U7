@@ -113,6 +113,7 @@
                     apresentados.</p>
             </div>
         </div>
+        <p id="close" style="font-size: 13px;color: white;position: absolute;top: 0px;left: 860px;">X</p>
     </div>
 </div>
 <footer style="width: 1008px;height: 19px;display: flex;background-color: #0D536A;">
@@ -127,7 +128,8 @@
 </footer>
 <script>
     $(() => {
-        let janelas = $(document).find('[id^=janela]').on("click", apagarJanelas);
+        let janelas = $(document).find('[id^=janela]')//.on("click", apagarJanelas);
+        let close = $(document).find('[id^=close]').on("click", apagarJanelas).css('cursor', 'pointer');;
         apagarJanelas();
         $(document).find('[id^=btn]').hide();
         let botoes = $(document).find('[id^=botao]').map((index, botao) => {
@@ -145,7 +147,7 @@
         })
         function apagarJanelas() {
             janelas.map((index, janela) => {
-                //$(janela).hide();
+                $(janela).hide();
             })
         }
     })
