@@ -23,9 +23,10 @@
             problema que ela busca solucionar. </p>
         <p>Clique em Iniciar para começar o exercício.</p>
     </div>
-    <div class="coluna-direita animate__animated animate__backInRight">
-        <img id="botao_1" style="margin-top: 151px;margin-right: 127px;width: 231px;"
-            src="recursos/imgs/img-slide-11-estado-1.svg">
+    <div id="botao_1" class="coluna-direita animate__animated animate__backInRight">
+        <img style="margin-top: 151px;margin-right: 127px;width: 231px;" src="recursos/imgs/img-slide-11-estado-1.svg">
+        <img id="btn_1_2" style="position: absolute;top: 151px;left: 0px;width: 231px;"
+            src="recursos/imgs/img-slide-11-estado-2.svg">
     </div>
     <div class="jan" id="janela_1" style=" display: none;">
         <div>
@@ -162,7 +163,7 @@
         let resposta = '';
         let feedCerto = $(document).find('[id^=feedCerto]').hide();
         let feedErrado = $(document).find('[id^=feedErrado]').hide();
-        let submeter = $(document).find('[id=submeter]').css('cursor','pointer').hide();
+        let submeter = $(document).find('[id=submeter]').css('cursor', 'pointer').hide();
         let questao = $(document).find('[id^=opc]');
 
         $(feedCerto).on('click', apagarFeeds);
